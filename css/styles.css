@@ -638,14 +638,14 @@ footer .networks-link:focus {
 .input-wrapper:hover .form-icon
 /* .input-wrapper:focus .form-icon  */
 {
-  fill: var(--accent-cl);
+  fill: var(--brand-cl);
 }
 /* .input-style:hover .form-icon,
 .input-styler:focus .form-icon {
   fill: var(--accent-cl);
 } */
 .input-wrapper:focus-within .form-icon {
-  fill: var(--accent-cl);
+  fill: var(--brand-cl);
 }
 .comment-box {
   margin-bottom: 16px;
@@ -726,7 +726,7 @@ input[type="checkbox"]:focus-visible + .modal-agreement-desc > .modal-checkbox {
 }
 
 .checkbox-sel {
-  color: var(--accent-cl);
+  color: var(--brand-cl);
   text-decoration: underline;
 }
 
