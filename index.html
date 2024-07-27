@@ -555,9 +555,9 @@
           </ul>
         </div>
         <div class="subscription">
-          <form>
-            <label class="subsc-text" for="email-send">Subscribe</label>
-
+          <p class="subsc-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="subsc-text" for="email-send">
             <input
               type="email"
               placeholder="E-mail"
@@ -565,6 +565,7 @@
               name="email"
               id="email-send"
             />
+            </label>
             <button type="submit" class="email-btn">
               Subscribe
               <svg class="email-icon" width="24" height="24">
@@ -587,37 +588,37 @@
         </p>
         <form action="" class="form-box" name="user-info">
           <div class="inbox-form">
-            <label for="user_name" class="label-form">Name</label>
+            <label for="user-name" class="label-form">Name</label>
             <div class="input-wrapper">
               <input
                 class="input-style"
                 type="text"
-                name="name"
-                id="user_name"
+                name="user-name"
+                id="user-name"
               />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
           <div class="inbox-form">
-            <label for="user_tel" class="label-form">Phone</label>
+            <label for="user-tel" class="label-form">Phone</label>
 
             <div class="input-wrapper">
-              <input class="input-style" type="tel" name="tel" id="user_tel" />
+              <input class="input-style" type="tel" name="user-tel" id="user-tel" />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
           <div class="inbox-form">
-            <label for="user_email" class="label-form">Email</label>
+            <label for="user-email" class="label-form">Email</label>
             <div class="input-wrapper">
               <input
                 class="input-style"
                 type="email"
-                name="email"
-                id="user_email"
+                name="user-email"
+                id="user-email"
               />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -626,11 +627,11 @@
           </div>
 
           <div class="comment-box">
-            <label for="user_comment" class="label-form">Comment</label>
+            <label for="user-comment" class="label-form">Comment</label>
             <textarea
               class="comment-area"
-              name="comment"
-              id="user_comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -639,13 +640,13 @@
             <input
               class="visually-hidden"
               type="checkbox"
-              name="user_agreement"
-              id="user_agreement"
-              value="false"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="modal-agreement-desc" for="user_agreement">
+            <label class="modal-agreement-desc" for="user-privacy">
               <span class="modal-checkbox">
-                <svg class="modal-checkbox-icon" width="10" height="10">
+                <svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
